@@ -30,7 +30,7 @@ const Category = () => {
           <Swiper
         slidesPerView={4}                // Number of slides visible at once
         spaceBetween={30}                // Space between slides
-        centeredSlides={true}            // Centers active slide
+        // centeredSlides={true}            // Centers active slide
         pagination={{
           clickable: true,            
         }}

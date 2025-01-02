@@ -1,9 +1,16 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
     // Define the list items as an array of JSX elements
     const links = [
-        <li key="1"><a>Home</a></li>,
-        <li key="2"><a>Item 2</a></li>,
-        <li key="3"><a>Item 3</a></li>
+        <>
+        <Link  to='/'> <li><a>Home</a></li> </Link>
+        <Link  to='/menu'> <li><a>Our Menu</a></li> </Link>
+        <Link  to='/contact'> <li><a>Contact Us</a></li> </Link>
+        <Link  to='/order/salad'> <li><a>Order Food</a></li> </Link>
+
+
+        </>
     ];
 
     return (
